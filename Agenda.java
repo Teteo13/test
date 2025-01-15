@@ -10,6 +10,8 @@ public class Agenda {
     private ArrayList<ArrayList<Object>> listaTarefasMensais = new ArrayList<>();
     private ArrayList<Object> listaTemp = new ArrayList<>();
     private ArrayList<String> diasSemana = new ArrayList<>();
+
+    
     
     public void adicionarTarefaSemanal(String nome, String horario, int qtdDias) {
         if(qtdDias > 1){
